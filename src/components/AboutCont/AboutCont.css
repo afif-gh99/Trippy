@@ -1,0 +1,12 @@
+.about-container {
+    margin: 4rem 6rem;
+    text-align: start;
+}
+
+@media (max-width:868px) {
+    .about-container {
+        margin: 4rem 2rem;
+        text-align: center;
+    }
+
+}

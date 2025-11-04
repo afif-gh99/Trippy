@@ -1,0 +1,11 @@
+.content {
+    color: #222;
+
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    h1 {
+        margin-bottom: 16px;
+    }
+}

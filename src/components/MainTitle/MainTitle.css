@@ -1,0 +1,16 @@
+.main-title {
+    text-align: center;
+    margin: 4rem 6rem;
+    color: #222;
+
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:868px) {
+    .main-title {
+        margin: 4rem 2rem;
+    }
+}

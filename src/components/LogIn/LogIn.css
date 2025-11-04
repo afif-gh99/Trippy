@@ -1,0 +1,78 @@
+.log-box {
+    border-radius: 14px;
+    box-shadow: 0 5px 25px 2px rgba(0, 0, 0, .15);
+    color: #2a2a2a;
+    margin: 6rem auto;
+    padding: 3rem 0;
+    width: 60%;
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        color: #222;
+
+        a {
+            color: #222;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                color: #01959a;
+            }
+        }
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 3rem;
+    width: 60%;
+
+    input[type=password] {
+        border: 1px solid #2a2a2a;
+        border-radius: .3rem;
+        margin-bottom: 2rem;
+        height: 3rem;
+        padding: 0 1rem;
+        outline: none;
+    }
+
+    input[type=submit] {
+        border: none;
+        padding: 1.4rem;
+        cursor: pointer;
+        border-radius: .3rem;
+        font-size: 16px;
+        font-weight: 600;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            background-color: #01959a;
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width:868px) {
+    .log-box {
+        margin: 4rem auto;
+        padding: 1rem;
+        width: 80%;
+
+        h1 {
+            font-size: 1.3rem;
+        }
+
+
+        form {
+            padding-top: 2rem;
+            width: 90%;
+        }
+    }
+}
